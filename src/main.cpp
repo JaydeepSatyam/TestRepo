@@ -22,7 +22,7 @@ void setup() {
 
 }
 
-void loop() {
+void loop() { 
   // put your main code here, to run repeatedly:
   unsigned long now = millis();
   if (now - lastTime >= cycle_time){
